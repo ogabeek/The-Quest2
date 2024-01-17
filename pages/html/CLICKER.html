@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CLICKER</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>
+        <span class="errorcode">8. </span>
+        <span id="loading">CLICKER</span>
+    </h1>
+    
+    <a href = "RAIL_FENCE.html">RAIL_FENCE</a> 
+
+    <fieldset>
+        <legend>&nbsp;</legend>
+        <table>
+            <tr>
+                <td>
+                    <p> 
+                        ...
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    
+
+    <div class="dialog" style = "min-width: 400px;">
+        
+        <h1 id="cookietxt">0 Cookies</h1>
+        <p class="clicker-button">2</p>
+
+        <img  class ="clicker-button" src = "https://pngimg.com/uploads/cookie/cookie_PNG13656.png" id="cookieimg" height=100px" style = "padding:2em;" onclick="addcookie()"/>
+
+        <br/>
+        <button class = "clicker" onclick="upgradeClicks()">Upgrade Clicks (50 Cookies)</button>
+    </div>
+
+
+    <form class="terminal" action="/submit" method="POST">
+        <label> id:&nbsp;</label>
+        <input type="text" id="id" name="id" class="styled-input" />
+        <br>
+        <label >key:</label>
+        <input class="styled-input" type="text" id="key" name="key" />
+        <br>
+        <input type="submit" value="Submit" class="styled-button" />
+    </form>
+
+
+</body>
+
+<script src="../js/textloading.js"></script>
+<script src="../js/clicker.js"></script>
+
+</html>
+

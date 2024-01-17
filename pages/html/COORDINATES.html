@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COORDINATES</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>
+        <span class="errorcode">2. </span>
+        <span id="loading">COORDINATES</span>
+    </h1>
+    <a href = "SAMUEL.html" >SAMUEL</a> 
+
+    <fieldset>
+        <legend>&nbsp;</legend>
+        <table>
+            <tr>
+                <td>
+                    find  coordinates "x: y:" on the page 
+                    <a style= "color:#000; a::after{content:none;}" href = "COORDINATES_2.html" alt ="hello"> O </a>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+
+    <div class="dialog" style = "font-size: 28px">
+    
+            <label>X:</label>
+            <span id='xValue'></span>
+            <label>Y:</label>
+            <span id='yValue'></span>
+
+    </div>
+
+
+
+    <form class="terminal"  action="/submit" method="POST">
+
+        <label> id:&nbsp;</label>
+        <input type="text" id="id" name="id" class="styled-input" />
+        <br>
+        <label >key:</label>
+        <input class="styled-input" type="text" id="key" name="key" />
+        <br>
+        <input type="submit" value="Submit" class="styled-button" />
+ 
+    </form>
+
+
+
+</body>
+
+<script src="../js/textloading.js"></script>
+<script src="../js/coordinates.js"></script>
+
+</html>
+

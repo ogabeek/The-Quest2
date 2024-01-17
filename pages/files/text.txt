@@ -1,0 +1,11 @@
+The rail fence cipher (sometimes called zigzag cipher) is a transposition cipher that jumbles up the order of the letters of a message using a basic algorithm.
+
+The rail fence cipher works by writing your message on alternate lines across the page, and then reading off each line in turn.
+
+For this challenge, you will have to write programs, to decrypt an encoded message (ciphertext to plaintext). 
+
+More complex Rail Fence Ciphers have more “rails”. For instance instead of writing the code over two lines (“rails”) you can write over three or four or more lines. The number of lines used in a Rail Fence Cipher is called the key.
+
+T . . . E . . . E . . . I . . . C . . . K . . . 
+. H . N . X . L . V . L . S . " . L . C . E . " 
+. . E . . . T . . . E . . . A . . . I . . . R . 
